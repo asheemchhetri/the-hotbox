@@ -15,6 +15,11 @@
 
 .slider {
   width: 20vw;
+  margin: 0.28vw 0;
+}
+
+.slider:last-child{
+  margin-bottom: 1vw;
 }
 
 .checkbox {
@@ -25,6 +30,7 @@
   width: 12vw;
   padding: 1vw;
   border: 0.25vw solid gray;
+  margin-top: 0.28vw;
 }
 
 #progress-container {
@@ -47,9 +53,9 @@ a {
 }
 
 :root {
-    --primary-color: #000000;
-    --secondary-color: #000000;
-    --bg-color: #FFFFFF;
+  --primary-color: #000000;
+  --secondary-color: #000000;
+  --bg-color: #FFFFFF;
 }
 
 body{
@@ -67,3 +73,4 @@ body{
 #themeSwitch{
   vertical-align: text-bottom;
 }
+
